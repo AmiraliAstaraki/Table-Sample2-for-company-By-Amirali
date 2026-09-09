@@ -1,85 +1,146 @@
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: vazirmatn fd;
-        direction: rtl;
-      }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: vazirmatn fd;
+  direction: rtl;
+}
 
-      table {
-        width: 60%;
-        margin: 50px auto;
-        border-collapse: collapse;
-      }
+table {
+  width: 70%;
+  margin: 50px auto 0px auto;
+  border-collapse: collapse;
+}
 
-      #row {
-        width: 25%;
-      }
+#row {
+  width: 12.5%;
+}
 
-      #title3 {
-        width: 35%;
-      }
+#pdf {
 
-      #file {
-        width: 15%;
-      }
+  width: 12.5;
+}
 
-      #filedown {
-        width: 25%;
-      }
+#title1 {
+  width: 35%;
+}
 
-      tr {
-        margin: 0px 20px;
-      }
+#file {
+  width: 15%;
+}
 
-      thead > tr#title > th {
-        padding: 15px;
-        background-color: #f29700;
-        color: #e7e7e7;
-        text-align: right;
-        font-weight: 400;
-      }
+#filedown {
+  width: 25%;
+}
 
-      thead > tr#title2 > th {
-        background-color: #e8e8e8;
-        color: rgb(71, 71, 71);
-        text-align: right;
-        padding: 30px 10px 10px 10px;
-      }
+tr {
+  margin: 0px 20px;
+}
 
-      tbody > tr > td {
-        padding: 10px;
-        text-align: right;
-        color: #818181;
-        position: relative;
-      }
+caption {
+  padding: 15px;
+  background-color: #f29700;
+  color: #f3f1f1;
+  text-align: right;
+  font-weight: 400;
+}
 
-      tbody > tr:nth-child(odd) {
-        background-color: #f9f9f9;
-        border: 1px solid rgb(218, 218, 218);
-      }
+thead>tr#title>th {
+  background-color: #e8e8e8;
+  color: rgb(71, 71, 71);
+  text-align: right;
+  padding: 30px 10px 10px 10px;
+}
 
-      tbody > tr:nth-child(even) {
-        background-color: #e8e8e8;
-      }
+tbody>tr>td {
+  padding: 10px;
+  text-align: right;
+  color: #818181;
+}
 
-      a {
-        text-decoration: none;
-        color: rgb(0, 145, 202);
-        transition: all 0.3s;
-      }
+tbody>tr:nth-child(odd) {
+  background-color: #f9f9f9;
+  border: 1px solid rgb(218, 218, 218);
+}
 
-      a:hover {
-        background-color: #c9c9c9;
-      }
+tbody>tr:nth-child(even) {
+  background-color: #e8e8e8;
+}
 
-      i {
-        color: rgb(173, 0, 0);
-        position: absolute;
-        font-size: 23px;
-        right: 60%;
-      }
+tbody a {
+  text-decoration: none;
+  color: rgb(0, 145, 202);
+  transition: all 0.3s;
+}
 
-      #lastrow td {
-        padding: 10px 10px 25px 10px;
-      }
+tbody a:hover {
+  color: #f29700;
+}
+
+tbody i {
+  color: rgb(173, 0, 0);
+  font-size: 23px;
+  right: 60%;
+}
+
+section#pagination {
+
+  display: flex;
+  flex: 1;
+  width: 70%;
+  margin: 0px auto;
+  background-color: #e8e8e8;
+  justify-content: center;
+  padding: 40px 30px 30px 30px;
+  gap: 5px;
+}
+
+section#pagination>div.pageclick {
+
+
+  border: 1px solid #dadada;
+}
+
+section#pagination>div.pageclick a {
+
+  text-decoration: none;
+  color: #818181;
+  background-color: #f9f9f9;
+  display: block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  transition: all .5s;
+
+}
+
+section#pagination>div.pageclick a:hover {
+
+  background-color: #f29700;
+  color: #f2f2f2;
+}
+
+section#pagination>div.angle a {
+
+  transition: all .5s;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+
+}
+
+.angle i {
+
+  color: #7a7a7a;
+  transition: all .5s;
+}
+
+.angle i:hover {
+
+  color: #a19f9f;
+
+}
