@@ -13,24 +13,24 @@ table {
 }
 
 #row {
-  width: 12.5%;
+  width: 6%;
 }
 
 #pdf {
 
-  width: 12.5;
+  width: 5%;
 }
 
-#title1 {
+#title {
   width: 35%;
 }
 
 #file {
-  width: 15%;
+  width: 10%;
 }
 
 #filedown {
-  width: 25%;
+  width: 15%;
 }
 
 tr {
@@ -45,7 +45,7 @@ caption {
   font-weight: 400;
 }
 
-thead>tr#title>th {
+thead>tr#topic>th {
   background-color: #e8e8e8;
   color: rgb(71, 71, 71);
   text-align: right;
